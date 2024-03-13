@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class CharacterExistence {
    
-	public static boolean charExistence(String str,char ch)
-	{   
-		int len=str.length()-1;
-		
+	public static boolean charExistence(String str,char ch) 
+	{	
 		if(str.length()==0)
 		    return false;
 		
