@@ -8,7 +8,6 @@ public class GenerateTrainChars {
 	{
 		int len=str.length()/2;
 	
-		
 		if(len==1)
 		{	  
 			  char ch=str.charAt(len-1);
