@@ -12,7 +12,7 @@ public class CharacterExistence {
 		else if(str.charAt(0)==ch)
                     return true;
 		else
-			return charExistence(str.substring(1),ch);
+	            return charExistence(str.substring(1),ch);
 	}
 	
 	public static void main(String[] args)
